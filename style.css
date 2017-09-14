@@ -46,11 +46,11 @@ body {
         margin-right: 0px; }
       body header nav.top-menu ul.nav li a {
         color: #000000;
-        background-color: none;
         padding: 0px;
         padding-bottom: 5px;
-        font-size: 13px;
-        font-weight: bold;
+        font-family: 'bebas', sans-serif;
+        font-size: 16px;
+        font-weight: 600;
         text-transform: uppercase; }
         body header nav.top-menu ul.nav li a:hover {
           background: none;
