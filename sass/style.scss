@@ -1,0 +1,121 @@
+body {
+	
+	padding-top: 80px;
+
+h2.wwf-heading {
+	color: #000000;
+	font-size: 55px;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin: 0px;
+}
+
+.container {
+	width: 1300px;
+}
+
+header {
+
+	height: 80px;
+	background-color: #FFFFFF;
+
+	
+		
+	
+	div.navbar-header {
+
+		a.navbar-brand {
+			color: #000000;
+			font-weight: bold;
+			display: block;
+		    width: 100px;
+		    text-align: center;
+		    border: 1px solid #d0d0d0;
+		    border-top: 0px;
+		    height: auto!important;
+		    background-color: #FFFFFF;
+
+			img {
+		    	width: 100%;
+		    }
+
+		    span.logo-text {
+		    	display: block;
+		    	margin-top: 10px;
+		    	padding-top: 10px;
+		    	border-top: 1px solid #000000;
+		    	text-align: justify;
+		    	letter-spacing: 2px;
+		    	font-size: 16px;
+		    }
+		}
+	}
+
+
+
+}
+
+section.wwf-grey-bg {
+	background-color: #f4f4f1;
+}
+
+section.top-banner {
+	padding: 45px 0px 65px;
+
+	div.container {
+		background-image: url("images/mountains-txture.png");
+		background-size: cover;
+		background-position: fixed;
+		background-repeat: no-repeat; 
+	}
+	
+}
+
+section#about {
+	padding: 60px 0px 85px
+}
+
+section#news {
+	padding: 75px 0px;
+
+	div.container {
+		background-image: url("images/news-bg.png");
+		background-size: cover;
+		background-position: fixed;
+		background-repeat: no-repeat;
+	}
+
+}
+
+section#donate {
+		background-image: url("images/donate-bg.jpg");
+		background-size: cover;
+		background-position: fixed;
+		background-repeat: no-repeat;
+		min-height: 800px;
+		padding: 75px 0px 85px;
+
+		h2 {
+			color: #FFFFFF;
+		}
+}
+
+footer {
+	background-color: #252525;
+	padding: 50px 0px;
+	color: #FFFFFF;
+	font-size: 16px;
+
+	a {
+		color: #ffc047;
+
+	}
+
+	a:hover {
+		color: #ffc047;
+		text-decoration: underline;
+	}
+}
+
+
+}
