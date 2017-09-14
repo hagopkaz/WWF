@@ -1,5 +1,10 @@
 body {
-  padding-top: 80px; }
+  padding-top: 80px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  color: #595959; }
+  body h1, body h2, body h3, body h4, body h5, body h6 {
+    font-family: 'bebas', sans-serif; }
   body h2.wwf-heading {
     color: #000000;
     font-size: 55px;
@@ -8,6 +13,8 @@ body {
     margin: 0px; }
   body .container {
     width: 1300px; }
+  body .wwf-grey-bg {
+    background-color: #f4f4f1; }
   body header {
     height: 80px;
     background-color: #FFFFFF; }
@@ -31,8 +38,24 @@ body {
         text-align: justify;
         letter-spacing: 2px;
         font-size: 16px; }
-  body section.wwf-grey-bg {
-    background-color: #f4f4f1; }
+    body header nav.top-menu ul.nav li {
+      margin: auto 13px; }
+      body header nav.top-menu ul.nav li:first-child {
+        margin-left: 0px; }
+      body header nav.top-menu ul.nav li:last-child {
+        margin-right: 0px; }
+      body header nav.top-menu ul.nav li a {
+        color: #000000;
+        background-color: none;
+        padding: 0px;
+        padding-bottom: 5px;
+        font-size: 13px;
+        font-weight: bold;
+        text-transform: uppercase; }
+        body header nav.top-menu ul.nav li a:hover {
+          background: none;
+          text-decoration: none;
+          border-bottom: 2px solid #ffc047; }
   body section.top-banner {
     padding: 45px 0px 65px; }
     body section.top-banner div.container {
@@ -58,6 +81,8 @@ body {
     padding: 75px 0px 85px; }
     body section#donate h2 {
       color: #FFFFFF; }
+    body section#donate .wwf-donate-form {
+      background-color: #FFFFFF; }
   body footer {
     background-color: #252525;
     padding: 50px 0px;

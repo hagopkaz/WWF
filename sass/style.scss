@@ -1,6 +1,13 @@
 body {
 	
 	padding-top: 80px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	color: #595959;
+
+h1,h2,h3,h4,h5,h6 {
+	font-family: 'bebas', sans-serif;
+}
 
 h2.wwf-heading {
 	color: #000000;
@@ -13,14 +20,14 @@ h2.wwf-heading {
 .container {
 	width: 1300px;
 }
+.wwf-grey-bg {
+	background-color: #f4f4f1;
+}
 
 header {
 
 	height: 80px;
 	background-color: #FFFFFF;
-
-	
-		
 	
 	div.navbar-header {
 
@@ -51,13 +58,43 @@ header {
 		}
 	}
 
+nav.top-menu {
+	ul.nav {
+		li {
+
+			margin: auto 13px;
+			
+			&:first-child {
+				margin-left: 0px;
+			}
+
+			&:last-child {
+				margin-right: 0px;
+			}
+
+			a {
+				color: #000000;
+				background-color: none;
+				padding: 0px;
+				padding-bottom: 5px;
+				font-size: 13px;
+				font-weight: bold;
+				text-transform: uppercase;
+
+				&:hover {
+					background: none;
+					text-decoration: none;
+					border-bottom: 2px solid #ffc047;
+				}
+			}
+
+		}
+	}
+}
 
 
 }
 
-section.wwf-grey-bg {
-	background-color: #f4f4f1;
-}
 
 section.top-banner {
 	padding: 45px 0px 65px;
@@ -98,6 +135,11 @@ section#donate {
 		h2 {
 			color: #FFFFFF;
 		}
+
+		.wwf-donate-form {
+			background-color: #FFFFFF;
+		}
+
 }
 
 footer {
