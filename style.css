@@ -72,6 +72,8 @@ body {
       background-size: cover;
       background-position: fixed;
       background-repeat: no-repeat; }
+    body section#news img {
+      width: 100%; }
   body section#donate {
     background-image: url("images/donate-bg.jpg");
     background-size: cover;
